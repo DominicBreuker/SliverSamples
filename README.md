@@ -14,6 +14,10 @@ Currently there is:
   A normal Windows DLL.
   Use it with the Sliver `sideload` command.
   See also [here](https://dominicbreuker.com/post/learning_sliver_c2_10_sideload/).
+- [ReflectiveDLLInjection](./ReflectiveDLLInjection):
+  A normal Windows DLL but with a reflective loader compiled into it.
+  Use it with the Sliver `spawndll` command.
+  See also [here](https://dominicbreuker.com/post/learning_sliver_c2_11_spawndll/).
 - [PasswordPromptExtension](./PasswordPromptExtension):
   An extension which will be reflectively loaded into the implant process.
   Use it with the Sliver `extensions` command.

